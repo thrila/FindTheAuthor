@@ -129,15 +129,19 @@ nav ul li a:hover{
 }
 /* the end  */
 .authorName{
-    width: 80%;
+    /* width: 80%; */
     height: 50px;
     margin: 5px 10px ;
     border-left: 1px var(--secondary-background-color)  solid;
     border-radius: 5px;
+    flex-basis: 80%;
+    
 }
+
 
 .title{
     margin-left: 3%;
+
 }
 .list-container{
     display: flex;
